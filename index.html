@@ -6,7 +6,27 @@
     <title>JS | Common Events</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body onload="myEvent()">
+    <button id="clickButton">Click me</button>
+    <br />
+    <button id="onMouseOverAndOut">Mouse Over and Out</button>
+
+    <form>
+      <input type="text" id="studentName" />
+      <p id="forChange"></p>
+      <select name="color" id="color">
+        <option value="">Chose Color</option>
+        <option value="red">Red</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+      </select>
+    </form>
+    <br />
+    <input type="text" id="onKeyUp" placeholder="OnKeyUp" />
+    <p id="forKeyUp"></p>
+    <br />
+    <input type="text" id="onKeyDown" placeholder="OnKeyDown" />
+    <p id="forKeyDown"></p>
     <script src="index.js"></script>
   </body>
 </html>
